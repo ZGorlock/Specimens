@@ -1,0 +1,27 @@
+.navbarFrame {float:left; width:20%; height:98%; position: fixed;}
+.mainFrame {float:left; width:79%; height:98%; margin-left: 20%; position: fixed;}
+
+.navbar {height: 100%; width: 100%; position: fixed; z-index: 1; top: 0; left: 0; background-color: #111; overflow-x: hidden; padding-top: 20px;}
+.navbar a {padding: 6px 8px 6px 16px; text-decoration: none; font-size: 14px; color: #818181; display: block;}
+
+body {color: #f1f1f1; background-color: #111; font: normal normal normal 16px oloron, monospace;}
+h1 {font: normal bold normal 48px monospace; text-align: center; text-decoration: underline, overline; text-transform: uppercase;}
+
+.td-left {text-align: right; padding-right: 8px; width: 50%;}
+.td-right {text-align: left; padding-left: 8px; width: 50%;}
+
+.img_div {z-index:9999; display:none; background-color:#000; position:fixed; height:100%; width:100%; left: 0px; top: 0px; text-align: center; overflow: hidden;}
+.img_div_img {width: 100%; height: 100%; object-fit: contain;}
+.img_div_close {position: absolute; right: 0px; top: 0px; background: #000; color: #fff; cursor: pointer; width: 32px; height: 32px; text-align: center; line-height: 32px;}
+
+ul, #myUL {list-style-type: none;}
+#myUL {margin: 0; padding: 0; padding-left: 20px;}
+.caret {cursor: pointer; user-select: none;}
+.caret::before {content: "\25B6"; color: white; display: inline-block; margin-right: 6px;}
+.caret-down::before {transform: rotate(90deg);}
+.nested {display: none;}
+.active {display: block;}
+
+a:link {color: #818181; text-decoration: underline;}
+a:visited {color: #818181; text-decoration: underline;}
+a:hover {color: #f1f1f1;}
