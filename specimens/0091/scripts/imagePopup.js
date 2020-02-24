@@ -132,6 +132,90 @@ $(document).ready(function() {
 	$("#div_img_dead5").hide();
 	});
 
+	$('#img_dead6').click( function(e) {
+		e.preventDefault();
+		prepareShow();
+		$("#div_img_dead6").show();
+	});
+	$('#div_img_dead6').click(function(){
+		prepareHide();
+	$("#div_img_dead6").hide();
+	});
+	$('#div_close_img_dead6').click(function(){
+		prepareHide();
+	$("#div_img_dead6").hide();
+	});
+
+	$('#img_dead7').click( function(e) {
+		e.preventDefault();
+		prepareShow();
+		$("#div_img_dead7").show();
+	});
+	$('#div_img_dead7').click(function(){
+		prepareHide();
+	$("#div_img_dead7").hide();
+	});
+	$('#div_close_img_dead7').click(function(){
+		prepareHide();
+	$("#div_img_dead7").hide();
+	});
+
+	$('#img_dead8').click( function(e) {
+		e.preventDefault();
+		prepareShow();
+		$("#div_img_dead8").show();
+	});
+	$('#div_img_dead8').click(function(){
+		prepareHide();
+	$("#div_img_dead8").hide();
+	});
+	$('#div_close_img_dead8').click(function(){
+		prepareHide();
+	$("#div_img_dead8").hide();
+	});
+
+	$('#img_dead9').click( function(e) {
+		e.preventDefault();
+		prepareShow();
+		$("#div_img_dead9").show();
+	});
+	$('#div_img_dead9').click(function(){
+		prepareHide();
+	$("#div_img_dead9").hide();
+	});
+	$('#div_close_img_dead9').click(function(){
+		prepareHide();
+	$("#div_img_dead9").hide();
+	});
+
+	$('#img_dead10').click( function(e) {
+		e.preventDefault();
+		prepareShow();
+		$("#div_img_dead10").show();
+	});
+	$('#div_img_dead10').click(function(){
+		prepareHide();
+	$("#div_img_dead10").hide();
+	});
+	$('#div_close_img_dead10').click(function(){
+		prepareHide();
+	$("#div_img_dead10").hide();
+	});
+
+	$('#img_dead11').click( function(e) {
+		e.preventDefault();
+		prepareShow();
+		$("#div_img_dead11").show();
+	});
+	$('#div_img_dead11').click(function(){
+		prepareHide();
+	$("#div_img_dead11").hide();
+	});
+	$('#div_close_img_dead11').click(function(){
+		prepareHide();
+	$("#div_img_dead11").hide();
+	});
+
 	$('#img_preparation0').click( function(e) {
 		e.preventDefault();
 		prepareShow();
@@ -185,6 +269,12 @@ $(document).ready(function() {
 			$("#div_img_dead3").hide();
 			$("#div_img_dead4").hide();
 			$("#div_img_dead5").hide();
+			$("#div_img_dead6").hide();
+			$("#div_img_dead7").hide();
+			$("#div_img_dead8").hide();
+			$("#div_img_dead9").hide();
+			$("#div_img_dead10").hide();
+			$("#div_img_dead11").hide();
 			$("#div_img_preparation0").hide();
 			$("#div_img_preparation1").hide();
 			$("#div_img_preparation2").hide();
