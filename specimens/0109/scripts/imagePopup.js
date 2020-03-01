@@ -20,34 +20,6 @@ $(document).ready(function() {
 		$("html").scrollTop(scroll);
 	}
 
-	$('#img_alive0').click( function(e) {
-		e.preventDefault();
-		prepareShow();
-		$("#div_img_alive0").show();
-	});
-	$('#div_img_alive0').click(function(){
-		prepareHide();
-	$("#div_img_alive0").hide();
-	});
-	$('#div_close_img_alive0').click(function(){
-		prepareHide();
-	$("#div_img_alive0").hide();
-	});
-
-	$('#img_alive1').click( function(e) {
-		e.preventDefault();
-		prepareShow();
-		$("#div_img_alive1").show();
-	});
-	$('#div_img_alive1').click(function(){
-		prepareHide();
-	$("#div_img_alive1").hide();
-	});
-	$('#div_close_img_alive1').click(function(){
-		prepareHide();
-	$("#div_img_alive1").hide();
-	});
-
 	$('#img_dead0').click( function(e) {
 		e.preventDefault();
 		prepareShow();
@@ -104,20 +76,6 @@ $(document).ready(function() {
 	$("#div_img_dead3").hide();
 	});
 
-	$('#img_dead4').click( function(e) {
-		e.preventDefault();
-		prepareShow();
-		$("#div_img_dead4").show();
-	});
-	$('#div_img_dead4').click(function(){
-		prepareHide();
-	$("#div_img_dead4").hide();
-	});
-	$('#div_close_img_dead4').click(function(){
-		prepareHide();
-	$("#div_img_dead4").hide();
-	});
-
 	$('#img_preparation0').click( function(e) {
 		e.preventDefault();
 		prepareShow();
@@ -149,13 +107,10 @@ $(document).ready(function() {
 	$(document).keyup(function(e) {
 		if (e.key === "Escape") {
 			prepareHide();
-			$("#div_img_alive0").hide();
-			$("#div_img_alive1").hide();
 			$("#div_img_dead0").hide();
 			$("#div_img_dead1").hide();
 			$("#div_img_dead2").hide();
 			$("#div_img_dead3").hide();
-			$("#div_img_dead4").hide();
 			$("#div_img_preparation0").hide();
 			$("#div_img_preparation1").hide();
 		}
