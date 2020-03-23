@@ -216,6 +216,34 @@ $(document).ready(function() {
 	$("#div_img_suspension3").hide();
 	});
 
+	$('#img_final0').click( function(e) {
+		e.preventDefault();
+		prepareShow();
+		$("#div_img_final0").show();
+	});
+	$('#div_img_final0').click(function(){
+		prepareHide();
+	$("#div_img_final0").hide();
+	});
+	$('#div_close_img_final0').click(function(){
+		prepareHide();
+	$("#div_img_final0").hide();
+	});
+
+	$('#img_final1').click( function(e) {
+		e.preventDefault();
+		prepareShow();
+		$("#div_img_final1").show();
+	});
+	$('#div_img_final1').click(function(){
+		prepareHide();
+	$("#div_img_final1").hide();
+	});
+	$('#div_close_img_final1').click(function(){
+		prepareHide();
+	$("#div_img_final1").hide();
+	});
+
 	$(document).keyup(function(e) {
 		if (e.key === "Escape") {
 			prepareHide();
@@ -233,6 +261,8 @@ $(document).ready(function() {
 			$("#div_img_suspension1").hide();
 			$("#div_img_suspension2").hide();
 			$("#div_img_suspension3").hide();
+			$("#div_img_final0").hide();
+			$("#div_img_final1").hide();
 		}
 	});
 
