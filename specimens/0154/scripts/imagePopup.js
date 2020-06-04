@@ -20,20 +20,6 @@ $(document).ready(function() {
 		$("html").scrollTop(scroll);
 	}
 
-	$('#img_alive0').click( function(e) {
-		e.preventDefault();
-		prepareShow();
-		$("#div_img_alive0").show();
-	});
-	$('#div_img_alive0').click(function(){
-		prepareHide();
-	$("#div_img_alive0").hide();
-	});
-	$('#div_close_img_alive0').click(function(){
-		prepareHide();
-	$("#div_img_alive0").hide();
-	});
-
 	$('#img_dead0').click( function(e) {
 		e.preventDefault();
 		prepareShow();
@@ -121,7 +107,6 @@ $(document).ready(function() {
 	$(document).keyup(function(e) {
 		if (e.key === "Escape") {
 			prepareHide();
-			$("#div_img_alive0").hide();
 			$("#div_img_dead0").hide();
 			$("#div_img_dead1").hide();
 			$("#div_img_dead2").hide();
