@@ -1,0 +1,44 @@
+$(document).ready(function() {
+	var scroll = 0;
+
+	$(document).on('scroll', 'html, body', function() {
+		scroll = $(window).scrollTop();
+	});
+
+	function prepareShow() {
+		scroll = $(window).scrollTop();
+		$('html, body').css({
+			overflow: 'hidden',
+			height: '100%'
+		});
+	}
+	function prepareHide() {
+		$('html, body').css({
+			overflow: 'auto',
+			height: 'auto'
+		});
+		$("html").scrollTop(scroll);
+	}
+
+	$('#img_final0').click( function(e) {
+		e.preventDefault();
+		prepareShow();
+		$("#div_img_final0").show();
+	});
+	$('#div_img_final0').click(function(){
+		prepareHide();
+		$("#div_img_final0").hide();
+	});
+	$('#div_close_img_final0').click(function(){
+		prepareHide();
+		$("#div_img_final0").hide();
+	});
+
+	$(document).keyup(function(e) {
+		if (e.key === "Escape") {
+			prepareHide();
+			$("#div_img_final0").hide();
+		}
+	});
+
+});
