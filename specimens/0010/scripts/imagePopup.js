@@ -286,6 +286,20 @@ $(document).ready(function() {
 		$("#div_img_final2").hide();
 	});
 
+	$('#img_final3').click( function(e) {
+		e.preventDefault();
+		prepareShow();
+		$("#div_img_final3").show();
+	});
+	$('#div_img_final3').click(function(){
+		prepareHide();
+		$("#div_img_final3").hide();
+	});
+	$('#div_close_img_final3').click(function(){
+		prepareHide();
+		$("#div_img_final3").hide();
+	});
+
 	$(document).keyup(function(e) {
 		if (e.key === "Escape") {
 			prepareHide();
@@ -308,6 +322,7 @@ $(document).ready(function() {
 			$("#div_img_final0").hide();
 			$("#div_img_final1").hide();
 			$("#div_img_final2").hide();
+			$("#div_img_final3").hide();
 		}
 	});
 
