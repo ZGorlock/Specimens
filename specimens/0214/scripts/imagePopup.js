@@ -160,6 +160,20 @@ $(document).ready(function() {
 		$("#div_img_final9").hide();
 	});
 
+	$('#img_final10').click( function(e) {
+		e.preventDefault();
+		prepareShow();
+		$("#div_img_final10").show();
+	});
+	$('#div_img_final10').click(function(){
+		prepareHide();
+		$("#div_img_final10").hide();
+	});
+	$('#div_close_img_final10').click(function(){
+		prepareHide();
+		$("#div_img_final10").hide();
+	});
+
 	$(document).keyup(function(e) {
 		if (e.key === "Escape") {
 			prepareHide();
@@ -173,6 +187,7 @@ $(document).ready(function() {
 			$("#div_img_final7").hide();
 			$("#div_img_final8").hide();
 			$("#div_img_final9").hide();
+			$("#div_img_final10").hide();
 		}
 	});
 
