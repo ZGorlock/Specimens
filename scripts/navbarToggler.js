@@ -19,7 +19,7 @@ $(document).ready(function() {
 			} else {
 				sessionStorage.setItem('navbarCollapsed' + this.getAttribute('id'), true);
 			}
-
 		});
+
 	}
 });

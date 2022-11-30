@@ -19,7 +19,7 @@ $(document).ready(function() {
 			} else {
 				sessionStorage.setItem('treeViewCollapsed' + this.getAttribute('id'), true);
 			}
-
 		});
+
 	}
 });
